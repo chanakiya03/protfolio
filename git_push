@@ -1,0 +1,146 @@
+Got it 👍
+Here is the **FULL, CLEAN, CORRECT set of Git commands** you can always use to push your project to GitHub (from zero → push).
+You can copy–paste this as a reference.
+
+---
+
+# ✅ ✅ COMPLETE GIT PUSH COMMANDS (SAFE VERSION)
+
+### 1️⃣ Go to your project folder
+
+```bat
+cd /D D:\RBCS\campus_portal_full_code
+```
+
+---
+
+### 2️⃣ Initialize git (only first time)
+
+```bat
+git init
+```
+
+---
+
+### 3️⃣ Add `.gitignore` (important)
+
+```bat
+notepad .gitignore
+```
+
+Paste:
+
+```
+env/
+__pycache__/
+*.pyc
+db.sqlite3
+```
+
+Save & close.
+
+---
+
+### 4️⃣ Add all project files
+
+```bat
+git add .
+```
+
+---
+
+### 5️⃣ Commit
+
+```bat
+git commit -m "Initial commit"
+```
+
+---
+
+### 6️⃣ Remove old remote (if exists)
+
+```bat
+git remote remove origin
+```
+
+(ignore error if none)
+
+---
+
+### 7️⃣ Add your GitHub repository
+
+```bat
+git remote add origin https://github.com/chanakiya03/Roll-base-access-control.git
+```
+
+---
+
+### 8️⃣ Rename branch to main
+
+```bat
+git branch -M main
+```
+
+---
+
+### 9️⃣ Push to GitHub 🚀
+
+```bat
+git push -u origin main
+```
+
+---
+
+# ✅ After first push (daily use)
+
+Whenever you change code later:
+
+```bat
+git add .
+git commit -m "your message"
+git push
+```
+
+---
+
+# ✅ If GitHub says “fetch first”
+
+Use:
+
+```bat
+git pull origin main --allow-unrelated-histories
+git push
+```
+
+---
+
+# ✅ If GitHub asks password
+
+Use:
+
+* **Username:** `chanakiya03`
+* **Password:** GitHub Personal Access Token (PAT)
+
+---
+
+## 📌 FINAL CHECK
+
+Your repo should show:
+
+```
+campus_portal_project/
+README.md
+requirements.txt
+```
+
+---
+
+If you want, I can now help you with:
+
+* ✅ Professional README.md
+* ✅ Django RBAC logic
+* ✅ JWT authentication
+* ✅ Deployment steps
+* ✅ Git best practices
+
+Just tell me what you want next 🚀
